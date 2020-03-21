@@ -1,0 +1,18 @@
+Sprint Questions
+
+
+
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is used to mark up your text in meaningful ways so that it’s easier to find things, it’s easier to anticipate structure for future developers and easier to achieve search engine optimization.
+
+Name two big differences between display: block; and display: inline;.
+Block elements take up the whole line and start a new line.  Block elements can’t be nested inside inline elements.  Inline don’t start a new line and can be nest in block.
+
+What are the 4 areas of the box model?
+Content, padding, border, margin.
+
+While using flexbox, what axis does the following property work on: align-items: center?
+It works on the cross axis.
+
+Explain why git is valuable to a team of developers.
+Git is valuable because it allows you to make separate branches to work on your own part of the project without overlapping.  You can also time travel to previous branches if something does work out.

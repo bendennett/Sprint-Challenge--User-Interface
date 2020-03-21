@@ -80,7 +80,7 @@ header {
     align-items: center;
     margin: 15px;
     padding: 10px;
-    width: 100%;
+    width: 80%;
 }
 a {
     text-decoration: none;
@@ -89,8 +89,10 @@ a {
 
 .photo {
     display: flex;
-    width: 100%;
+    width: 80%%;
     margin: 5%;
+    justify-content: center;
+
 }
 
 .container {
@@ -178,6 +180,7 @@ footer nav a {
     height: 100%;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 .box2 {
@@ -186,6 +189,7 @@ footer nav a {
     height: 100%;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 .box3 {
     background: cadetblue;
@@ -193,6 +197,7 @@ footer nav a {
     height: 100%;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 .box4 {
     background: coral;
@@ -200,6 +205,7 @@ footer nav a {
     height: 100%;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 .box5 {
@@ -208,6 +214,7 @@ footer nav a {
     height: 100%;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 .box6 {
@@ -216,6 +223,7 @@ footer nav a {
     height: 100%;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 .box7 {
@@ -224,6 +232,7 @@ footer nav a {
     height: 100%;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 .box8 {
@@ -232,6 +241,7 @@ footer nav a {
     height: 100%;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 .box9 {
@@ -240,6 +250,7 @@ footer nav a {
     height: 100%;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 .box10 {
@@ -248,4 +259,62 @@ footer nav a {
     height: 100%;
     display:flex;
     justify-content: center;
+    align-items: center;
+}
+/*Starting About Page*/
+
+
+.container-about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 5% 10%;
+    padding-bottom: 20px; 
+    border-bottom: 1px dotted black;
+}
+
+
+.aboutcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.aboutbox {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin: 3%;
+    width: 40%;
+    height: auto;
+    border-bottom: 1px dotted black;
+}
+
+.aboutbox h2 {
+    margin: 20px 0px;
+}
+
+.button {
+    border-radius: 20px;
+    border: 1px solid black;
+    color: black;
+    width: 35%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.aboutbottom {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 7%;
+    width: 80%;
+    justify-content: flex-start;
+}
+
+footer {
+    width: 80%;
+    margin: 2% 7% 0px;
 }
